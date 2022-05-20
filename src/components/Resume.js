@@ -6,6 +6,7 @@ export default function App() {
     <View>
       <div>
         <h1>Resume</h1>
+        <p>Education</p>
       </div>
     </View>
   );
