@@ -1,0 +1,20 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* justify-content: center; */
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.flex-container div {
+  /* background-color: darkblue; */
+  width: 500px;
+  margin: 5px;
+  text-align: left;
+}
+
+.container{
+    width: 500px;
+}
