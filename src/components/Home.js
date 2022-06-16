@@ -18,10 +18,10 @@ export default function App() {
           <Text style={styles.text}>
             I'm a freshly graduated student with a Bachelor of Information
             Science (Enterprise Software). A position as a Developer will allow
-            me to utilize teamwork and leadership skills in coordinating the
-            effort of programmers. Also, bringing exceptional skills in
-            designing, coding, testing, and implementing customizations to
-            exceed customer expectations.
+            me to utilize problem-solving skills and teamwork skills in
+            coordinating the effort of programmers. Also, bring exceptional
+            skills in designing, coding, testing, and implementing
+            customizations to meet customer expectations.
           </Text>
         </div>
       </div>

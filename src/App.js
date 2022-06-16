@@ -26,7 +26,7 @@ function App() {
             <a href="contact">Contact</a>
           </div>
         </header>
-        <div className="App-header">
+        <div className="App-container">
           <Routes>
             <Route exact path="/" element={<About />}></Route>
             <Route exact path="/resume" element={<Resume />}></Route>

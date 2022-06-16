@@ -13,29 +13,17 @@
   }
 }
 
-.App-header {
+.App-container {
   background-color: #282c34;
   min-height: 100vh;
   /* display: flex;
   flex-direction: column; */
   padding-inline-start: 15%;
+  page-break-inside: 15%;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 /* Style the header with a grey background and some padding */
@@ -43,6 +31,8 @@
   overflow: auto;
   background-color: #f1f1f1;
   padding: 20px 10px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* Style the header links */
@@ -57,16 +47,14 @@
   border-radius: 4px;
 }
 
+.header-right a:hover {
+  color: blueviolet;
+}
+
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
-}
-
-/* Change the background color on mouse-over */
-.header a:hover {
-  /* background-color: #ddd; */
-  color: black;
 }
 
 /* Float the link section to the right */
@@ -75,11 +63,6 @@
 }
 
 .footer {
-  /* float: left;
-  padding-left: 20;
-  font-size: 16px;
-  font-weight: bold;
-  flex-direction: row; */
   overflow: auto;
   background-color: #f1f1f1;
   padding: 10px 10px;
